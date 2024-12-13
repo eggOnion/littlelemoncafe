@@ -1,6 +1,6 @@
 # Little Lemon Cafe 
 
-A modern frontend website features a clean, minimalist design, showcasing a dynamic profile, interactive animations, and smooth transitions. It utilize on React router DOM to provide a SPA webpage for fast-loading, accessibility, and seamless navigation across all pages. The CSS styling features a sleek typography of vibrant colors, and with its highly responsive layout using Grid & Flexbox to accommodate a wide range of screen size.
+A modern frontend website features a clean, minimalist design, showcasing a dynamic profile, interactive animations, and smooth transitions. It utilize on React router DOM to provide a SPA webpage for fast-loading, accessibility, and seamless navigation across all pages. The CSS styling features a sleek typography of vibrant colors, andd a highly responsive layout using Grid & Flexbox to accommodate a wide range of different screen sizes.
 <br />
 <br />
 

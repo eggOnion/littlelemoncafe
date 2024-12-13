@@ -24,9 +24,14 @@
 }
 
 .story-textual {
-  display: flex;
   margin-top: 5px;
-  margin-right: 20px;  
+  margin-right: 20px;
+  padding: 5px;
+  width: 65%;
+}
+
+.story-textual .story-textual-story {
+  width: 100%;
 }
 
 .story-chef-img-container {
@@ -34,7 +39,7 @@
   flex-direction: column;
   position: relative;
   height: 300px;
-  width: 410px; 
+  width: 410px;  
 }
 
 .story-chef-img-container img {
@@ -76,9 +81,8 @@
   }
 
   .story-textual {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    overflow: visible; 
+    box-sizing: border-box;    
   }
 
   .story-chef-img-container {

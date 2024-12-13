@@ -1,6 +1,7 @@
 export const myIntro = {
-  foodIntro: "https://www.theurbanlist.com/singapore/a-list/best-cafes-singapore"
-}
+  foodIntro:
+    "https://www.theurbanlist.com/singapore/a-list/best-cafes-singapore",
+};
 
 export const myFoodCard = {
   foodCardONE: {
@@ -34,13 +35,13 @@ export const myReview = {
   reviewerFOUR: `The pasta was perfectly al dente, with a rich, flavorful sauce that made every bite delightful!`,
 };
 
-export const myFooter ={
+export const myFooter = {
   termAndConditionONE: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan lacinia mollis. 
   Duis dignissim nisi at nisl tempus, ac tempor ligula vehicula. Cras euismod massa sit amet leo sagittis, vel consequat 
   risus varius. Donec eu velit neque. Suspendisse consectetur lectus a nisl convallis, sit amet sagittis odio ullamcorper. 
   Vivamus sagittis tortor eu risus pellentesque, sit amet eleifend enim fermentum. Nam volutpat turpis in volutpat lacinia. Nam ornare 
   dignissim dolor a elementum. Duis maximus sagittis scelerisque.`,
-  
+
   termAndConditionTWO: `Fusce semper sollicitudin porttitor. Donec tincidunt laoreet posuere. Proin lorem erat, commodo ac orci 
   sit amet, interdum semper justo. Curabitur volutpat mollis rutrum. Phasellus lectus massa, finibus et lacinia 
   ac, congue ut nibh. Praesent bibendum pretium eros, a posuere lorem pharetra eget. Suspendisse potenti. 
@@ -52,4 +53,21 @@ export const myFooter ={
   nisi, sagittis feugiat orci justo a augue. Integer non lectus commodo, vulputate purus id, mattis tellus. 
   Sed scelerisque, nulla ullamcorper porttitor interdum, ante mauris imperdiet dolor, at placerat orci eros ut 
   sapien. Phasellus gravida consectetur iaculis. Mauris fermentum pharetra neque nec dictum.`,
-}
+};
+
+export const myStory = {
+  storySectionONE: `Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused 
+  on traditional recipes served with a modern twist. The chefs draw inspiration from Italian, Greek, and Turkish 
+  culture and have a menu of 12-15 items that they rotate seasonally.`,
+
+  storySectionTWO: `The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a 
+  popular place for a meal any time of the day.`,
+
+  storySectionTHREE: `Owned by two Italian brothers, Mario and Adrianto the United States to pursue their 
+  shared dream of owning a restaurant.`,
+
+  storySectionFOUR: `Mario relies on family recipes and his experience as a chef in Italy, to craft`,
+
+  storySectionFIVE: `Adrian does all the marketing for the restaurant and led the effort to expand the menu
+   beyond classic Italian to incorporate additional cuisines from the Mediterranean region.`,
+};
