@@ -39,7 +39,7 @@ function Header() {
       style={{ transition: "top 0.3s", top: isHeaderVisible ? "0" : "-100px" }}
     >
       <div className="header-container">
-        <a href="/" id="logo">
+        <a href="/littlelemoncafe" id="logo">
           <img src={logo} alt="cafe logo" />
         </a>
         <nav>

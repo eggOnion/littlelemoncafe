@@ -17,8 +17,7 @@ function WebPage() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/littlelemoncafe" element={<Home />} />        
         <Route path="/menu" element={<Menu />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/orderOnline" element={<OrderOnline />} />

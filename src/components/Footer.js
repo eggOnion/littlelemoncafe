@@ -21,7 +21,7 @@ function Footer() {
   return (
     <footer>
       <div className="logo-left">
-        <a href="/">
+        <a href="/littlelemoncafe">
           <img src={logo} alt="logo" />
         </a>
       </div>

@@ -26,9 +26,9 @@ function NavBar() {
           >
             <li>
               <a
-                href="/"
-                className={selectedLink === "/" ? "selected" : ""}
-                onClick={() => handleLinkAndClose("/")}
+                href="/littlelemoncafe"
+                className={selectedLink === "/littlelemoncafe" ? "selected" : ""}
+                onClick={() => handleLinkAndClose("/littlelemoncafe")}
               >
                 Home
               </a>
