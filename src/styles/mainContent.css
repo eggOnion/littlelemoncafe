@@ -1,0 +1,17 @@
+.content-page {  
+  background-color: #ecf0f1; 
+  display: flex;  
+  flex-direction: column;
+  justify-content: center; 
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+  width: auto;
+  overflow: auto;
+
+  /* Add borders & shadows on the left+right sides */
+  box-shadow: 
+  0 10px 10px #495E57,  
+  0 5px 5px #495E57; 
+}

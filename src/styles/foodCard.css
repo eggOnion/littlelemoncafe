@@ -1,0 +1,60 @@
+.special-foodcard {
+  flex: 0 0 296px; /* Allow items to grow(1) and shrink(0) with a base width of 296px */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; 
+  background-color: #f8f9f9;
+  border: 1px solid black;
+  box-shadow: 5px -4px 5px #495e57, /* Upwards shadow */ 5px 8px 18px #495e57; /* Downwards shadow */
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.special-foodcard-img {
+  text-align: end;  
+  font-size: 11px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.special-foodcard-img img {
+  width: 295px;
+  height: 220px;
+  border-radius: 8%;
+  transition: all 0.3s ease;  
+}
+
+/* Hover effect to show full image */
+.special-foodcard-img img:hover {
+  z-index: 10; /* Ensures the hovered image is on top */
+  transform: scale(1.1);
+}
+
+.special-foodcard-intro {
+  padding: 10px; 
+}
+
+.special-foodcard-intro h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  padding-right: 10px;  
+}
+
+.special-foodcard-description {
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+.special-order-online { 
+  margin: 50px 10px 0px 0px; 
+  font-weight: bold;
+  font-style: italic;
+  transition: all 0.3s ease;  
+}
+
+.special-order-online:hover{
+  color: #2ecc71;  
+}

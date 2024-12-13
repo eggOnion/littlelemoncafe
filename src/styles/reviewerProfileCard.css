@@ -1,0 +1,55 @@
+.review-profilecard {
+  flex: 0 0 245px; /* Allow items to grow and shrink with a base width of 296px */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #f8f9f9;
+  /* border: 1px solid black; */
+  box-shadow: 0 -2px 5px #f8f9f9, /* Upwards shadow */ 0 5px 12px #f8f9f9; /* Downwards shadow */
+  border-radius: 15px;
+}
+
+.review-profile-pic {
+  display: flex;
+  justify-content: center;
+  padding: 5px; 
+}
+
+.review-profile-pic img {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;  
+}
+
+.review-star-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.review-star-count img {
+  height: 39px;
+  width: 39px; 
+}
+
+.review-reviewer-info {
+  padding: 3px;
+}
+
+.review-reviewer-info h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px; 
+}
+
+.review-reviewer-feedback {
+  padding: 2px;
+  margin: 2px;
+  max-height: 150px;  /* scolling enable content exceed >150px */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */ 
+}

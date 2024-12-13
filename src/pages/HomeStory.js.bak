@@ -1,0 +1,50 @@
+import React from "react";
+
+import chefPicONE from "../assets/images/Mario_and_Adrian_A.png";
+import chefPicTWO from "../assets/images/Mario_and_Adrian_B.png";
+
+import "../styles/homeStory.css";
+
+function HomeStory() {
+  return (
+    <section className="home-story-section">
+      <h1 className="story-heading">Our Story!</h1>
+
+      <article className="story-story-container">
+        <article className="story-story-layout">
+          <div className="story-textual">
+            <p>
+              Little Lemon is owned by two Italian brothers, Mario and Adrian,
+              who moved
+              <br />
+              to the United States to pursue their shared dream of owning a
+              restaurant.
+              <br />
+              <br />
+              Mario relies on family recipes and his experience as a chef in
+              Italy, to craft
+              <br />
+              the menu
+              <br />
+              <br />
+              Adrian does all the marketing for the restaurant and led the
+              effort to
+              <br />
+              expand the menu beyond classic Italian to incorporate additional
+              cuisines
+              <br />
+              from the Mediterranean region.
+            </p>
+          </div>
+
+          <div className="story-chef-img-container">
+            <img src={chefPicONE} alt="2 chefs, Mario and Adrian - 1" />
+            <img src={chefPicTWO} alt="2 chefs, Mario and Adrian - 2" />
+          </div>
+        </article>
+      </article>
+    </section>
+  );
+}
+
+export default HomeStory;

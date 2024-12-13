@@ -1,0 +1,26 @@
+.social-media-icon li {
+    margin: 10px 0px;
+  }
+
+.social-media-icon {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media-icon li {
+    margin-left: 10px;
+  }
+  
+  .social-media-icon li a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .social-media-icon li a:hover {
+    background-color: #aab7b8;
+    border-radius: 9px;
+  }

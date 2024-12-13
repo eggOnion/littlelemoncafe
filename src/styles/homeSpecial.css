@@ -1,0 +1,46 @@
+.home-special-section {
+  display: flex;
+  flex-direction: column;  
+}
+
+.special-heading {
+  padding: 100px 50px;
+  font-style: italic; 
+}
+
+.special-foodcard-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0px 87px 50px 87px;
+  gap: 30px;
+}
+
+.special-menu-view {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.special-menu-view #menu-button {
+  background-color: #f4ce14;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 27px;
+  box-sizing: border-box;
+}
+
+.special-menu-view #menu-button:hover {
+  background-color: transparent;
+  color: #495e57;
+  outline: 3px solid #f4ce14;
+}
+
+@media (max-width: 542px) {
+  .special-foodcard-container {
+    margin: 30px 62px 100px 62px;
+  }
+}

@@ -1,0 +1,102 @@
+.home-story-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-heading {
+  padding: 50px 50px;
+  font-style: italic;
+}
+
+.story-story-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 45px 100px 45px;
+}
+
+.story-story-layout {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.story-textual {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 20px;  
+}
+
+.story-chef-img-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 300px;
+  width: 410px; 
+}
+
+.story-chef-img-container img {
+  flex-direction: column;
+  position: absolute;
+  height: 300px;
+  width: 410px;
+  object-fit: cover;
+  border: 3px solid #d7dbdd;
+  box-shadow: 0 4px 8px #aab7b8;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Positioning the images to overlap */
+.story-chef-img-container img:nth-child(1) {
+  top: 0;
+  left: 10px;
+}
+
+.story-chef-img-container img:nth-child(2) {
+  top: 150px;
+  left: -80px;
+}
+
+/* Hover effect to show full image */
+.story-chef-img-container img:hover {
+  z-index: 10; /* Ensures the hovered image is on top */
+  transform: scale(1.2);
+  border: 3px solid lightblue;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1200px) {
+  .story-story-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story-textual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .story-chef-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+
+  .story-chef-img-container img {
+    position: static; /* Reset absolute positioning */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+
+  .story-chef-img-container img:hover {
+    transform: scale(1);
+  }
+}

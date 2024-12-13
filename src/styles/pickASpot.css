@@ -1,0 +1,9 @@
+.pickaspot-box {
+  max-width: 400px;
+  max-height: 190px;
+  margin: 20px auto;
+  background-color: #f8f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #000;
+}

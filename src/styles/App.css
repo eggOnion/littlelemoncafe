@@ -1,0 +1,21 @@
+body {
+  /* background-color: #f9e79f !important; */
+  background-color: #fcf3cf !important;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  flex: 1;
+}
+
+article {
+  flex: 1;
+}

@@ -1,0 +1,25 @@
+.construction-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 75px;
+  padding: 70px;
+}
+
+.construction-page-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 100px;
+  color: #333;
+}
+
+.construction-page p {
+  font-size: 22px;
+  padding: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,10 @@
+describe("test suite", () => {
+    it("first test", () => {
+       expect(1).toBe(1);
+    });
+ 
+    // alternative to it
+    test("second test", () => {
+       expect(1).not.toBe(2);
+    });
+ });
