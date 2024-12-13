@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, HashRouter } from "react-router-dom";
 
 import Header from "./Header";
 import Home from "../pages/Home";
@@ -14,9 +14,10 @@ import Testimonials from "../pages/Testimonials";
 
 function WebPage() {
   return (
-    <Router>
+    <HashRouter>
       <Header />
       <Routes>
+        <Route path="/" element={<Home />} />        
         <Route path="/littlelemoncafe" element={<Home />} />        
         <Route path="/menu" element={<Menu />} />
         <Route path="/booking" element={<Booking />} />
@@ -27,7 +28,7 @@ function WebPage() {
       </Routes>
       <MainContent />
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 

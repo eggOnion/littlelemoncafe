@@ -5,7 +5,7 @@ import "../styles/mainContent.css";
 
 function MainContent() {
   return (
-    <div>     
+    <div>
       <Outlet />
     </div>
   );
