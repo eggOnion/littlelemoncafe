@@ -14,7 +14,10 @@ https://eggOnion.github.io/littlelemoncafe
 My previous projects with Meta:
 <br>
 
-[High-Fidelity Figma](https://www.youtube.com/watch?v=TALY2Yihjxk "High-Fidelity Figma")
+[High-Fidelity Figma - (Demo Video)](https://www.youtube.com/watch?v=TALY2Yihjxk "High-Fidelity Figma")
+<br>
+
+[High-Fidelity Figma - (Usage in Figma)](https://www.figma.com/community/file/1449963324410138857/ "High-Fidelity Figma")
 <br>
 
 [Portfolio](https://eggonion.github.io/myPortfolio/ "Portfolio")
