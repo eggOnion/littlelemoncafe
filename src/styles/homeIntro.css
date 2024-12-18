@@ -1,8 +1,7 @@
 .home-intro {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  width: 100%;
+  align-items: flex-start;  
   background: #495e57;
   padding: 100px 0px 35px 65px;
   padding-right: 65px;

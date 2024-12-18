@@ -5,7 +5,7 @@ import HomeSpecial from "./HomeSpecial";
 import HomeReview from "./HomeReview";
 import HomeStory from "./HomeStory";
 
-import "../styles/home.css";
+import "../styles/mainContent.css";
 
 function Home() {
   return (
