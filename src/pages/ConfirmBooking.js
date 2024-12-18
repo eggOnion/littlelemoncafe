@@ -44,23 +44,34 @@ function ConfirmBooking() {
                   <Text>Name:</Text>
                   {state.email && <Text>Email:</Text>}
                   <Text>Phone:</Text>
-                  <Text>Total Guests:</Text>
-                  <Text>Reservation Date:</Text>
-                  <Text>Reservation Time:</Text>
-                  <Text>Spot:</Text>
+                  <Text mb="3">Total Guests:</Text>
+                  <Text mb="2">
+                    Reservation <br />
+                    Date:
+                  </Text>
+                  <Text mb="3">
+                    Reservation <br />
+                    Time:
+                  </Text>
+                  <Text mb="2">Spot:</Text>
                   {state.occasion && <Text>Occasion:</Text>}
-                  {state.specialRequest && <Text>Special Request:</Text>}
+                  {state.specialRequest && (
+                    <Text>
+                      Special <br />
+                      Request:
+                    </Text>
+                  )}
                 </VStack>
 
                 <VStack className="values">
                   <Text>{state.name}</Text>
                   {state.email && <Text>{state.email}</Text>}
                   <Text>{state.phone}</Text>
-                  <Text>{state.people}</Text>
-                  <Text>{state.selectedDate}</Text>
-                  <Text>{state.selectedTime}</Text>
-                  <Text>{state.pickASpot}</Text>
-                  {state.occasion && <Text>{state.occasion}</Text>}
+                  <Text mb="7">{state.people}</Text>
+                  <Text mb="8">{state.selectedDate}</Text>
+                  <Text mb="5">{state.selectedTime}</Text>
+                  <Text mb="2">{state.pickASpot}</Text>
+                  {state.occasion && <Text mb="2">{state.occasion}</Text>}
                   {state.specialRequest && <Text>{state.specialRequest}</Text>}
                 </VStack>
               </div>
