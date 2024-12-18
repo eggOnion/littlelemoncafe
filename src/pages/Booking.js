@@ -52,6 +52,7 @@ function Booking() {
             onSubmit={(values) => {
               console.log("value:", values);
               // alert(JSON.stringify(values, null, 2));
+              window.scrollTo(0, 0);
               navigate("/booking/confirmation", { state: values });
             }}
           >
