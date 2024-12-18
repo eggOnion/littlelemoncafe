@@ -13,7 +13,7 @@ function Email({errors, touched}) {
     <div>
       <FormControl isInvalid={errors.email && touched.email} mb={8}>
         <FormLabel htmlFor="email">Email (optional)</FormLabel>
-        <Field
+        <Field        
           as={Input}
           id="email"
           name="email"

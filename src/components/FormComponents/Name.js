@@ -15,7 +15,7 @@ function Name({ errors, touched }) {
     <div>
       <FormControl isInvalid={errors.name && touched.name} mb={8}>
         <FormLabel htmlFor="name">Name*</FormLabel>
-        <Field
+        <Field          
           as={Input}
           id="name"
           name="name"
