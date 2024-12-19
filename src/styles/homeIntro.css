@@ -7,7 +7,7 @@
   padding-right: 65px;
   gap: 80px;
   color: white;
-  font-weight: bold;
+  font-weight: bold;  
 }
 
 .reservation-button {
@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     padding: 100px 5px 100px 5px;
+    overflow: auto;
   }
 
   .intro-img-one {
@@ -67,6 +68,8 @@
 
   .intro-img-one img {
     max-width: 420px;
+    height: 300px;
+    width: 350px;
     margin-top: -10px;
     margin-bottom: -60px;
   }
@@ -78,6 +81,6 @@
   .intro-img-one .intro-img-credit a{
     position: absolute;
     top: 15px;       
-    left: 160px;      
+    left: 125px;      
   }
 }
