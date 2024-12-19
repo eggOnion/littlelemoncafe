@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/littlelemoncafe/static/css/main.54d2fcb7.css",
+    "main.css": "/littlelemoncafe/static/css/main.f9490dc8.css",
     "main.js": "/littlelemoncafe/static/js/main.7592c2fd.js",
     "static/media/restaurant_picA.png": "/littlelemoncafe/static/media/restaurant_picA.8de48083d15975f07173.png",
     "static/media/intro_food.png": "/littlelemoncafe/static/media/intro_food.0278079bf7a5263217ef.png",
@@ -16,11 +16,11 @@
     "static/media/reviewer3.png": "/littlelemoncafe/static/media/reviewer3.2236c543371cbd226064.png",
     "static/media/reviewer1.png": "/littlelemoncafe/static/media/reviewer1.a77cf69c10bbb4f6f5db.png",
     "index.html": "/littlelemoncafe/index.html",
-    "main.54d2fcb7.css.map": "/littlelemoncafe/static/css/main.54d2fcb7.css.map",
+    "main.f9490dc8.css.map": "/littlelemoncafe/static/css/main.f9490dc8.css.map",
     "main.7592c2fd.js.map": "/littlelemoncafe/static/js/main.7592c2fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.54d2fcb7.css",
+    "static/css/main.f9490dc8.css",
     "static/js/main.7592c2fd.js"
   ]
 }
